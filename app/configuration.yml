@@ -1,0 +1,17 @@
+# ScreenStreamerManager by YangHaitao
+#
+# configuration.yml
+#
+
+# LOG_LEVEL
+# a value of (NOSET, DEBUG, INFO, WARNING, ERROR, CRITICAL)
+# default NOSET
+log_level: DEBUG
+
+get_active_window: /home/breeze/Develop/ScreenStreamerManager/app/get_active_window
+
+rtmp: /home/breeze/Develop/ScreenStreamerManager/app/rtmp
+rtmp_config_path: /home/breeze/Develop/ScreenStreamerManager/app/configuration.rtmp.yml
+
+mjpeg: /home/breeze/Develop/ScreenStreamerManager/app/mjpeg
+mjpeg_config_path: /home/breeze/Develop/ScreenStreamerManager/app/configuration.mjpeg.yml

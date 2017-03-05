@@ -1,0 +1,29 @@
+gnore packages
+
+*.zip
+*.rar
+*.tar.gz
+*.tar
+*.7z
+*.cbz
+*.cbr
+
+# ignore files
+
+configuration.mjpeg.yml
+configuration.rtmp.yml
+get_active_window
+mjpeg
+rtmp
+get_active_window.exe
+mjpeg.exe
+rtmp.exe
+*.log
+*.log.*
+*.pid
+*.pyc
+*.conf
+*.exe
+DATA/*
+
+# ignore dirs
