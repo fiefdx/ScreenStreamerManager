@@ -8,10 +8,10 @@
 # default NOSET
 log_level: DEBUG
 
-get_active_window: /home/breeze/Develop/ScreenStreamerManager/app/get_active_window
+get_active_window: ./get_active_window
 
-rtmp: /home/breeze/Develop/ScreenStreamerManager/app/rtmp
-rtmp_config_path: /home/breeze/Develop/ScreenStreamerManager/app/configuration.rtmp.yml
+rtmp: ./rtmp
+rtmp_config_path: ./configuration.rtmp.yml
 
-mjpeg: /home/breeze/Develop/ScreenStreamerManager/app/mjpeg
-mjpeg_config_path: /home/breeze/Develop/ScreenStreamerManager/app/configuration.mjpeg.yml
+mjpeg: ./mjpeg
+mjpeg_config_path: ./configuration.mjpeg.yml

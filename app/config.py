@@ -3,7 +3,7 @@
 Created on 2015-11-10
 @summary:  MangaSpider yaml configuration
 @author: YangHaitao
-''' 
+'''
 try:
     import yaml
 except ImportError:
@@ -29,6 +29,11 @@ try:
     CONFIG["pid_path"] = cwd
     CONFIG["config_path"] = cwd
     CONFIG["static_path"] = os.path.join(cwd, "static")
+    CONFIG["get_active_window"] = os.path.abspath(CONFIG["get_active_window"])
+    CONFIG["rtmp"] = os.path.abspath(CONFIG["rtmp"])
+    CONFIG["rtmp_config_path"] = os.path.abspath(CONFIG["rtmp_config_path"])
+    CONFIG["mjpeg"] = os.path.abspath(CONFIG["mjpeg"])
+    CONFIG["mjpeg_config_path"] = os.path.abspath(CONFIG["mjpeg_config_path"])
 
 except Exception, e:
     print e
@@ -39,6 +44,3 @@ if __name__ == "__main__":
     print "CONFIG: %s"%CONFIG
     import json
     print json.dumps(CONFIG, indent = 4)
-
-
-
