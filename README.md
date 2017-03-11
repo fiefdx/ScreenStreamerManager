@@ -20,7 +20,7 @@ Run ScreenStreamerManager
    # default NOSET
    log_level: DEBUG
 
-   get_active_window: ./get_active_window
+   get_active_window: ./get_active_window # or ./get_active_window.exe
 
    rtmp: ./rtmp # or ./rtmp.exe
    rtmp_config_path: ./configuration.rtmp.yml
